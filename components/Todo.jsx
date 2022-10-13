@@ -1,6 +1,6 @@
 function Todo(){
     return(
-        <div className="test">
+        <div className="todo">
             <h2>Finish FES</h2>
             <button>delete</button>
         </div>
