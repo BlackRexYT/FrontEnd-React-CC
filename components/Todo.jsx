@@ -1,11 +1,10 @@
 import './Todo.css'
 
-function Todo(props){
+function Todo({title, onTodoDelete}){
     return(
         <div className="todo">
-            <h2>{props.title}</h2>
-            <p>{props.para}</p>
-            <button>delete</button>
+            <h2>{title}</h2>
+            <button onClick={onTodoDelete}>delete</button>
         </div>
     )
 }
