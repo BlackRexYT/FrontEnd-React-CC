@@ -13,7 +13,7 @@ function App() {
         <Todo title='Finish Interview' para='answer questioon'></Todo>
         <Todo title='land hunnid kay dumpy' para='MAKE MONAYY'></Todo>
       </div>
-      {/* <Modal></Modal> */}
+      {/* <Modal title='hehe'></Modal> */}
     </div>
   );
 }
