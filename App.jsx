@@ -9,11 +9,11 @@ function App() {
     <div>
       <Title></Title>
       <div className='todo__wrapper'>
-        <Todo></Todo>
-        <Todo></Todo>
-        <Todo></Todo>
+        <Todo title='Finish Fes' para='code along fes s by s'></Todo>
+        <Todo title='Finish Interview' para='answer questioon'></Todo>
+        <Todo title='land hunnid kay dumpy' para='MAKE MONAYY'></Todo>
       </div>
-      <Modal></Modal>
+      {/* <Modal></Modal> */}
     </div>
   );
 }
